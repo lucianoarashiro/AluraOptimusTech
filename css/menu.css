@@ -1,0 +1,107 @@
+
+.menu_container {
+    display: flex;
+    justify-content: space-around;
+    margin: 16px;
+    gap: 2em;
+    align-items: center;
+}
+
+.menu_container__direita {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+}
+
+.menu_container__direita_logo {
+    
+    width: 3em;
+    height: 3em;
+
+}
+
+.menu_container__direita_texto {
+    color: var(--cor-cinza-escuro);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.menu_container__centro ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+}
+
+.menu_container__centro ul li {
+    list-style-type: none;
+}
+
+.menu_container__centro_links {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro)
+}
+
+.menu_container__centro_links:hover {
+    color: var(--cor-marrom-escuro);
+    -webkit-transform: rotateY(25deg);
+    transform: rotateY(25deg);
+    box-shadow: 10px 10px 5px var(--cor-marrom-escuro);
+}
+
+.menu_container__esquerda {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.menu_container__esquerda a {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cor-cinza-escuro);
+}
+
+.menu_container__esquerda a:hover {
+    color: var(--cor-marrom-escuro);
+}
+
+.menu_container__esquerda button {
+    
+    color: var(--cor-branco);
+    padding: 10px 18px;
+    
+    border-radius: 8px;
+    border: 1px solid var(--cor-marrom-escuro);
+    background: var(--cor-marrom-escuro);
+
+    /* Shadow/xs */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.menu_container__esquerda button:hover {
+    color: var(--cor-marrom-escuro);    
+    background: var(--cor-branco);
+
+}
+
+@media (max-width: 430px){
+    .desktop_only {
+        display: none;
+    }
+    .menu_container__direita {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0.5em;
+    }
+
+    .menu_container__direita_logo {
+    
+        width: 1em;
+        height: 1em;
+    
+    }
+
+}

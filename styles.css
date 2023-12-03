@@ -1,0 +1,26 @@
+@import url('css/reset.css');
+@import url('css/menu.css');
+@import url('css/hero.css');
+@import url('css/metricas.css');
+@import url('css/talentos.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+:root {
+
+    --cor-marrom-escuro: #8E2424;
+    --cor-cinza-escuro: #101828;
+    --cor-cinza-claro: #667085;
+    --cor-branco: #FFF;
+
+    --inter-titulos: 600;
+    --inter-negrito: 500;
+    
+}
+
+body,
+header {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
